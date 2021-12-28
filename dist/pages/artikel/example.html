@@ -1,0 +1,136 @@
+<html lang="en" class="scroll-smooth">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Example Blog</title>
+
+     <!-- META SEO -->
+     <!-- META SEO -->
+
+     <link rel="stylesheet" href="../../../dist/css/style.css">
+     <link rel="shortcut icon" href="../../../src/image/profile.png" type="image/x-icon">
+</head>
+
+<body class="w-full h-auto p-8">
+     <header class="w-full flex items-center justify-start gap-4">
+          <a href="../../../index.html">
+               <ion-icon name="home" class="text-base text-gray-400"></ion-icon>
+          </a>
+
+          <span>
+               <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+
+          <a href="../blog.html" class="text-base capitalize text-gray-400">blog</a>
+
+          <span>
+               <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+
+          <a href="#" class="text-base capitalize font-medium text-sky-700">Example blog</a>
+     </header>
+
+     <main class="container mx auto mt-10 container grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-10">
+          <div class="container-artikel border-b md:border-0 border-gray-300 pb-3 md:col-span-2">
+               <h1 class="text-3xl capitalize font-medium">mari belajar html - yuk kenalan dengan html</h1>
+
+               <div class="w-full flex items-center justify-between my-4">
+                    <div class="flex items-center gap-2 opacity-60">
+                         <ion-icon name="person-circle-outline"></ion-icon>
+                         <span class="capitalize text-gray-500">Ariefianto Rizky</span>
+                    </div>
+                    <div class="flex items-center gap-2 opacity-60">
+                         <ion-icon name="calendar-outline"></ion-icon>
+                         <span class="capitalize text-gray-500">24 des 2021</span>
+                    </div>
+               </div>
+
+               <article class="w-full h-auto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRjbXL_sRtPWWAXYVXSVMmhcOyxAdKzAVGg&usqp=CAU"
+                         alt="gambar artikel" class="w-full h-60 sm:h-64 md:h-80 lg:h-96 object-cover rounded-lg my-8">
+
+                    <p class="text-justify my-3 indent-5 lg:indent-0 lg:my-5">
+                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui soluta eaque autem, cum pariatur
+                         aperiam, asperiores eius est officiis dolore molestiae porro? Vel natus <b>laboriosam
+                              veniam</b>,
+                         nisi
+                         maxime facilis tempora.
+                    </p>
+
+                    <div class="w-full lg:w-2/4 h-auto p-2 px-5 bg-sky-700 text-white rounded">
+                         <div class="flex items-center justify-between cursor-pointer" id="daftar-isi">
+                              <h5 class="text-lg capitalize font-medium">daftar isi</h5>
+                              <ion-icon name="caret-down-outline"></ion-icon>
+                         </div>
+
+                         <ul class="ml-5 my-3 hidden" id="list-daftar">
+                              <li class="my-2 list-inside list-disc"><a href="#" class="capitalize">subjudul 1</a></li>
+                              <li class="my-2 list-inside list-disc"><a href="#" class="capitalize">subjudul 2</a></li>
+                              <li class="my-2 list-inside list-disc"><a href="#" class="capitalize">subjudul 3</a></li>
+                              <li class="my-2 list-inside list-disc"><a href="#" class="capitalize">subjudul 4</a></li>
+                              <li class="my-2 list-inside list-disc"><a href="#" class="capitalize">subjudul 5</a></li>
+                         </ul>
+                    </div>
+
+                    <p class="text-justify my-3 indent-5 lg:indent-0 lg:my-5">
+                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui soluta eaque autem, cum pariatur
+                         aperiam, asperiores eius est officiis dolore molestiae porro? Vel natus laboriosam veniam, nisi
+                         maxime facilis tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui soluta
+                         eaque autem, cum pariatur
+                         aperiam, asperiores eius est officiis dolore molestiae porro? Vel natus laboriosam veniam, nisi
+                         maxime facilis tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui soluta
+                         eaque autem, cum pariatur
+                         aperiam, asperiores eius est officiis dolore molestiae porro? Vel natus laboriosam veniam, nisi
+                         maxime facilis tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui soluta
+                         eaque autem, cum pariatur
+                         aperiam, asperiores eius est officiis dolore molestiae porro? Vel natus laboriosam veniam, nisi
+                         maxime facilis tempora.
+                    </p>
+               </article>
+
+               <article class="w-full h-auto">
+                    <p class="text-justify my-3 indent-5 lg:indent-0 lg:my-5">
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis in maxime soluta ipsa
+                         dignissimos hic adipisci itaque veritatis incidunt amet numquam, eum veniam fugiat provident
+                         delectus eligendi minus unde!
+                    </p>
+               </article>
+          </div>
+
+          <div class="lg:mt-12">
+               <h3 class="text-xl font-medium capitalize mb-3">saran &amp; kritik</h3>
+
+               <form method="post" action="#" aria-required="true" autocomplete="off">
+                    <div class="flex flex-col my-5">
+                         <label for="username" class="mb-1 text-gray-500">Username</label>
+                         <input type="text" name="username" id="username"
+                              class="border border-sky-800/80 focus:outline-none focus:border-2 focus:border-sky-700 py-2 px-3 rounded"
+                              placeholder="jhondoe123" required>
+                    </div>
+                    <div class="flex flex-col my-5">
+                         <label for="message" class="mb-1 text-gray-500">Message</label>
+                         <textarea name="message" id="message" cols="30" rows="5"
+                              class="border border-sky-800/80 focus:outline-none focus:border-2 focus:border-sky-700 py-2 px-3 rounded"
+                              placeholder="type here..." required></textarea>
+                    </div>
+                    <div class="w-full">
+                         <button type="submit" class="w-full p-2 bg-sky-700 rounded text-white">Kirim ulasan</button>
+                    </div>
+               </form>
+          </div>
+     </main>
+
+     <footer class="w-full text-center mt-10">
+          <p class="text-base text-gray-500">
+               &copy; 2021 &ndash; made with <span class="text-red-500">&hearts;</span> by Ariefianto Rizky
+          </p>
+     </footer>
+
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <script src="../../../index.js" type="module"></script>
+</body>
+
+</html>
